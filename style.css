@@ -38,16 +38,28 @@ header {
   transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% ao passar o mouse */
 }
 
-
 .history {
-  flex: 2;
+  text-align: center; /* Centraliza o conteúdo */
+  padding: 50px 0; /* Adiciona um espaço acima e abaixo do conteúdo */
 }
 
 .history h2 {
-  font-size: 24px;
+  font-size: 36px; /* Tamanho grande para o título */
+  color: #333; /* Cor do texto */
 }
 
 .history p {
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: monospace; /* Usa uma fonte estilo datilografia */
+  font-size: 18px; /* Tamanho do texto */
+  line-height: 1.5; /* Espaçamento entre linhas */
+  white-space: nowrap; /* Impede quebras de linha */
+  overflow: hidden; /* Esconde o conteúdo que transborda */
+  border-right: 2px solid #333; /* Adiciona o cursor de digitação */
+  animation: typing 3s steps(40, end); /* Animação de digitação */
+}
+
+/* Animação de digitação */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
 }

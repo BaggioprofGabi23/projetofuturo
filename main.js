@@ -20,3 +20,8 @@ document.addEventListener("DOMContentLoaded", function() {
   // Iniciar o carrossel
   startCarousel();
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Adiciona uma classe para iniciar a animação de digitação
+  document.querySelector('.history p').classList.add('typing');
+});
