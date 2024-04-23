@@ -26,10 +26,19 @@ header {
   margin-right: 20px;
 }
 
+
 .images img {
-  width: 100%;
+
   margin-bottom: 20px;
+  width: 100%; /* As imagens ocuparão a largura total do contêiner */
+  height: auto; /* Altura automática para manter a proporção da imagem */
+  transition: transform 0.3s; /* Transição suave para a transformação */
 }
+
+.images img:hover {
+  transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% ao passar o mouse */
+}
+
 
 .history {
   flex: 2;
