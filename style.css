@@ -50,7 +50,7 @@ header {
 
 .history p {
   font-family: monospace; /* Usa uma fonte estilo datilografia */
-  font-size: 18px; /* Tamanho do texto */
+  font-size: 14px; /* Tamanho do texto */
   line-height: 1.5; /* Espaçamento entre linhas */
   white-space: nowrap; /* Impede quebras de linha */
   overflow: hidden; /* Esconde o conteúdo que transborda */
