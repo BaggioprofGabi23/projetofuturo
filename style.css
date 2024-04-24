@@ -21,6 +21,17 @@ header {
   padding: 20px;
 }
 
+.content {
+  max-width: 100%; /* Defina uma largura máxima para a seção */
+  overflow: hidden; /* Oculta qualquer conteúdo que exceda a largura máxima */
+}
+
+.images img {
+  max-width: 100%; /* Garante que as imagens não excedam a largura da seção */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+
 .images {
   flex: 1;
   margin-right: 20px;
